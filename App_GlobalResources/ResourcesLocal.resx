@@ -1,0 +1,1210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BllImportacionexcelImportNew" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="BllImportacionexcelImportUpdated" xml:space="preserve">
+    <value>Actualizado</value>
+  </data>
+  <data name="BllImportacionexcelValidateAdreessNameLength" xml:space="preserve">
+    <value>La cantidad de caracteres del campo direccion nombre es demasiado grande (maximo 250)</value>
+  </data>
+  <data name="BllImportacionexcelValidateAdreessNameNull" xml:space="preserve">
+    <value>Se debe definir la direccion si se define el tipo</value>
+  </data>
+  <data name="BllImportacionexcelValidateAdreessNumeric" xml:space="preserve">
+    <value>El numero de la direccion solo puede contener caracteres numericos</value>
+  </data>
+  <data name="BllImportacionexcelValidateAdreessOtherLength" xml:space="preserve">
+    <value>La cantidad de caracteres del campo direccion otro es demasiado grande (maximo 50)</value>
+  </data>
+  <data name="BllImportacionexcelValidateAdreessType" xml:space="preserve">
+    <value>El tipo de direccion no existe</value>
+  </data>
+  <data name="BllImportacionexcelValidateAdreessTypeNull" xml:space="preserve">
+    <value>Si se define la direccion se debe definir el tipo</value>
+  </data>
+  <data name="BllImportacionexcelValidateBusinessUnit" xml:space="preserve">
+    <value>No se ha especificado Unidad de Negocio</value>
+  </data>
+  <data name="BllImportacionexcelValidateCharges" xml:space="preserve">
+    <value>No se ha especificado Cargos</value>
+  </data>
+  <data name="BllImportacionexcelValidateChargesValue" xml:space="preserve">
+    <value>No se encontró Cargos</value>
+  </data>
+  <data name="BllImportacionexcelValidateContractType" xml:space="preserve">
+    <value>No se ha especificado Tipo de Contrato</value>
+  </data>
+  <data name="BllImportacionexcelValidateContractTypeValue" xml:space="preserve">
+    <value>No se encontró Tipo de Contrato</value>
+  </data>
+  <data name="BllImportacionexcelValidateDate" xml:space="preserve">
+    <value>No se ha especificado Fecha de Contrato</value>
+  </data>
+  <data name="BllImportacionexcelValidateDateValue" xml:space="preserve">
+    <value>El valor especificado en Fecha de Contrato no es una fecha válida</value>
+  </data>
+  <data name="BllImportacionexcelValidateEducationalLevel" xml:space="preserve">
+    <value>No se ha especificado Nivel de Escolaridad SENCE</value>
+  </data>
+  <data name="BllImportacionexcelValidateEducationalLevelValue" xml:space="preserve">
+    <value>No se encontró Nivel de Escolaridad SENCE</value>
+  </data>
+  <data name="BllImportacionexcelValidateEmail" xml:space="preserve">
+    <value>No se ha especificado Email</value>
+  </data>
+  <data name="BllImportacionexcelValidateEmailLength" xml:space="preserve">
+    <value>La cantidad de caracteres del correo electronico es demasiado grande</value>
+  </data>
+  <data name="BllImportacionexcelValidateEmailValue" xml:space="preserve">
+    <value>El valor especificado para Email no es válido</value>
+  </data>
+  <data name="BllImportacionexcelValidateFranchise" xml:space="preserve">
+    <value>No se ha especificado Franquicia SENCE</value>
+  </data>
+  <data name="BllImportacionexcelValidateFranchiseNoNumeric" xml:space="preserve">
+    <value>El valor especificado en Franquicia SENCE no es númerico</value>
+  </data>
+  <data name="BllImportacionexcelValidateFranchiseNoRange" xml:space="preserve">
+    <value>El valor especificado en Franquicia SENCE no esta en los rangos permitidos</value>
+  </data>
+  <data name="BllImportacionexcelValidateIdentityCompany" xml:space="preserve">
+    <value>No se ha especificado Rut Sociedad</value>
+  </data>
+  <data name="BllImportacionexcelValidateIdentityCompanyValue" xml:space="preserve">
+    <value>El valor especificado para RUT Sociedad no es válido</value>
+  </data>
+  <data name="BllImportacionexcelValidateLeadershipIdentity" xml:space="preserve">
+    <value>No se ha especificado Rut de Jefatura</value>
+  </data>
+  <data name="BllImportacionexcelValidateLeadershipIdentityValue" xml:space="preserve">
+    <value>El valor especificado para RUT Jefatura no es válido</value>
+  </data>
+  <data name="BllImportacionexcelValidateLeadershipIdentityValueNoExists" xml:space="preserve">
+    <value>El  RUT Jefatura no se encuentra Registrado</value>
+  </data>
+  <data name="BllImportacionexcelValidateLocation" xml:space="preserve">
+    <value>No se ha especificado Ubicación</value>
+  </data>
+  <data name="BllImportacionexcelValidateMaternalSurname" xml:space="preserve">
+    <value>No se ha especificado Apellido Materno</value>
+  </data>
+  <data name="BllImportacionexcelValidateMaternalSurnameLength" xml:space="preserve">
+    <value>La cantidad de caracteres del apellido materno es demasiado grande</value>
+  </data>
+  <data name="BllImportacionexcelValidateName" xml:space="preserve">
+    <value>No se ha especificado Nombre</value>
+  </data>
+  <data name="BllImportacionexcelValidateNameLength" xml:space="preserve">
+    <value>La cantidad de caracteres del nombre es demasiado grande</value>
+  </data>
+  <data name="BllImportacionexcelValidateNoCompanyValue" xml:space="preserve">
+    <value>La sociedad contratante no existe con el rut</value>
+  </data>
+  <data name="BllImportacionexcelValidateNoCompanyValueType" xml:space="preserve">
+    <value>La sociedad no es de tipo contratante para la sociedad actual</value>
+  </data>
+  <data name="BllImportacionexcelValidateOccupationalLevel" xml:space="preserve">
+    <value>No se ha especificado Nivel Ocupacional SENCE</value>
+  </data>
+  <data name="BllImportacionexcelValidateOccupationalLevelValue" xml:space="preserve">
+    <value>No se encontró Nivel Ocupacional SENCE</value>
+  </data>
+  <data name="BllImportacionexcelValidateOrganizationalUnit" xml:space="preserve">
+    <value>No se ha especificado Unidad Organizacional</value>
+  </data>
+  <data name="BllImportacionexcelValidateOrganizationalUnitValue" xml:space="preserve">
+    <value>No se encontró Unidad Organizacional</value>
+  </data>
+  <data name="BllImportacionexcelValidatePaternalSurname" xml:space="preserve">
+    <value>No se ha especificado Apellido Paterno</value>
+  </data>
+  <data name="BllImportacionexcelValidatePaternalSurnameLength" xml:space="preserve">
+    <value>La cantidad de caracteres del apellido paterno es demasiado grande</value>
+  </data>
+  <data name="BllImportacionexcelValidatePhone" xml:space="preserve">
+    <value>No se ha especificado Fono</value>
+  </data>
+  <data name="BllImportacionexcelValidatePhoneLength" xml:space="preserve">
+    <value>La cantidad de caracteres del telefono es demasiado grande</value>
+  </data>
+  <data name="BllImportacionexcelValidateRut" xml:space="preserve">
+    <value>No se ha especificado RUT</value>
+  </data>
+  <data name="BllImportacionexcelValidateRutValue" xml:space="preserve">
+    <value>El valor especificado para RUT no es válido</value>
+  </data>
+  <data name="ConstantNoInformation" xml:space="preserve">
+    <value>Sin información</value>
+    <comment>Constante de valor sin información</comment>
+  </data>
+  <data name="ContractDate" xml:space="preserve">
+    <value>Fecha</value>
+    <comment>texto campo fecha </comment>
+  </data>
+  <data name="ContractEmail" xml:space="preserve">
+    <value>Emal</value>
+    <comment>texto campo email</comment>
+  </data>
+  <data name="ContractIdentificationContractingCompany" xml:space="preserve">
+    <value>Rut Sociedad Contratante</value>
+    <comment>texto identificacion sociedad contratante</comment>
+  </data>
+  <data name="ContractPhone" xml:space="preserve">
+    <value>Telefono</value>
+    <comment>texto campo telefono</comment>
+  </data>
+  <data name="ContractType" xml:space="preserve">
+    <value>Tipo</value>
+    <comment>texto campo tipo</comment>
+  </data>
+  <data name="DialogDocumentosNoFile" xml:space="preserve">
+    <value>No se a especificado el archivo</value>
+  </data>
+  <data name="DockAdvancedSearchCommandText" xml:space="preserve">
+    <value>Búsqueda Avanzada</value>
+    <comment>Texto para boton de busqueda avanzada de RadDock</comment>
+  </data>
+  <data name="DockCloseCommandText" xml:space="preserve">
+    <value>Cerrar</value>
+    <comment>Texto para boton cerrar de RadDock</comment>
+  </data>
+  <data name="DockCommandAgregarExterno" xml:space="preserve">
+    <value>Agregar externo</value>
+    <comment>Texto RadDockCommand agregar externo</comment>
+  </data>
+  <data name="DockNewCommandText" xml:space="preserve">
+    <value>Agregar</value>
+    <comment>agregar nuevo elemento</comment>
+  </data>
+  <data name="DockNewReturn" xml:space="preserve">
+    <value>Volver página que indique en la fuente</value>
+    <comment>volver a url</comment>
+  </data>
+  <data name="DockPrintCommandText" xml:space="preserve">
+    <value>Imprimir</value>
+    <comment>Testo para boton imprimir de RadDock</comment>
+  </data>
+  <data name="DockReturnCommand" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="DockSaveCommandText" xml:space="preserve">
+    <value>Guardar</value>
+    <comment>Texto para boton de guardado de RadDock</comment>
+  </data>
+  <data name="DockUnlinkCommandText" xml:space="preserve">
+    <value>Desvincular</value>
+    <comment>Texto para boton desvincular de RadDock</comment>
+  </data>
+  <data name="EstadoContratoNoVigente" xml:space="preserve">
+    <value>No Vigente</value>
+    <comment>Estado contrato no vigente</comment>
+  </data>
+  <data name="EstadoContratoVigente" xml:space="preserve">
+    <value>Vigente</value>
+    <comment>Estado contrato vigente</comment>
+  </data>
+  <data name="EstadoPersonaNuevo" xml:space="preserve">
+    <value>Nuevo</value>
+    <comment>Estado Nuevo persona</comment>
+  </data>
+  <data name="GridUndefined" xml:space="preserve">
+    <value>No definido</value>
+    <comment>No definido para grillas</comment>
+  </data>
+  <data name="JobPositionBusinessUnit" xml:space="preserve">
+    <value>Unidad Negocio</value>
+    <comment>texto campo unidad de negocio</comment>
+  </data>
+  <data name="JobPositionFranchise" xml:space="preserve">
+    <value>Franquicia SENSE</value>
+    <comment>texto campo franquicia sence</comment>
+  </data>
+  <data name="JobPositionLeadershipIdentification" xml:space="preserve">
+    <value>Rut Jefatura</value>
+    <comment>texto campo rut jefatura</comment>
+  </data>
+  <data name="JobPositionLocation" xml:space="preserve">
+    <value>Ubicacion</value>
+    <comment>texto campo ubicacion</comment>
+  </data>
+  <data name="JobPositionOccupationalLevel" xml:space="preserve">
+    <value>Nivel ocupacional SENCE</value>
+    <comment>texto campo Nivel ocupacional sence</comment>
+  </data>
+  <data name="JobPositionOrganizationalUnit" xml:space="preserve">
+    <value>Unidad Organizacional</value>
+    <comment>texto campo unidad organizacional</comment>
+  </data>
+  <data name="JobPositionPosition" xml:space="preserve">
+    <value>Cargo</value>
+    <comment>texto campo cargo</comment>
+  </data>
+  <data name="JobPositionSchooling" xml:space="preserve">
+    <value>Escolaridad SENSE</value>
+    <comment>texto campo escolaridad sence</comment>
+  </data>
+  <data name="LinkVerDocumento" xml:space="preserve">
+    <value>Ver</value>
+    <comment>Nombre del link ver documento en control UI.Window.Documentos</comment>
+  </data>
+  <data name="LoginRevision" xml:space="preserve">
+    <value>revision: {0}</value>
+  </data>
+  <data name="Mensaje_1" xml:space="preserve">
+    <value>Se Grabaron los Datos Correctamente</value>
+    <comment>desplegar estado de la grabacion</comment>
+  </data>
+  <data name="Mensaje_2" xml:space="preserve">
+    <value>Datos Actualizados</value>
+    <comment>se actualizan los datos</comment>
+  </data>
+  <data name="NotificacionCorrectoEnvioCorreo" xml:space="preserve">
+    <value>El correo ha sido enviado satisfactoriamente</value>
+    <comment>texto exito envio correo</comment>
+  </data>
+  <data name="NotificacionFalloEnvioCorreo" xml:space="preserve">
+    <value>Error al enviar correo al destinatario</value>
+    <comment>texto de fallo al enviar correo</comment>
+  </data>
+  <data name="NotificationDefaultExceptionContentIcon" xml:space="preserve">
+    <value>warning</value>
+    <comment>Icono predeterminado contenido de exepcion al guardar</comment>
+  </data>
+  <data name="NotificationDefaultExceptionIcon" xml:space="preserve">
+    <value>none</value>
+    <comment>Icono predeteminado de exepcion al guardar</comment>
+  </data>
+  <data name="NotificationDefaultExceptionText" xml:space="preserve">
+    <value>Reinténtelo nuevamente</value>
+    <comment>Texto predeterminado para exepcion al guardar</comment>
+  </data>
+  <data name="NotificationDefaultSaveText" xml:space="preserve">
+    <value>El registro se ha Guardado Correctamente</value>
+    <comment>Texto predeterminado al guardar una dimension</comment>
+  </data>
+  <data name="NotificationDefaultTitle" xml:space="preserve">
+    <value>Digital Learning</value>
+    <comment>Titulo predetermninado para notificaciones</comment>
+  </data>
+  <data name="NotificationInvalidRut" xml:space="preserve">
+    <value>Este identificador no es válido, por favor vuelva a ingresarlo.</value>
+    <comment>Notificacion rut invalido</comment>
+  </data>
+  <data name="NotificationNoUnlink" xml:space="preserve">
+    <value>No se puede desvincular este contrato</value>
+    <comment>Texto de notificacion al no permitir desvincular un contrato</comment>
+  </data>
+  <data name="NotificationSaveDocument" xml:space="preserve">
+    <value>Documento guardado Correctamente</value>
+    <comment>Notificacion de guardado de documento en control UI.Window.Documentos</comment>
+  </data>
+  <data name="NotificationSaveUnchanged" xml:space="preserve">
+    <value>Sin Cambios</value>
+    <comment>Notificacion de guardado sin cambios</comment>
+  </data>
+  <data name="NotificationUnlink" xml:space="preserve">
+    <value>Desvinculación exitosa</value>
+    <comment>Texto de notificaciòn de desvinculacion</comment>
+  </data>
+  <data name="NotificationUsuarioNoRegistrado" xml:space="preserve">
+    <value>El usuario no esta Registrado</value>
+    <comment>Mensaje de notificacion de usuario no registrado</comment>
+  </data>
+  <data name="NotificationUsuarioSinCorreo" xml:space="preserve">
+    <value>Usuario sin correo eléctronico informado</value>
+    <comment>aviso que no tiene correo en la tabla personas</comment>
+  </data>
+  <data name="PeopleIdentification" xml:space="preserve">
+    <value>Rut</value>
+    <comment>texto campo identificacion</comment>
+  </data>
+  <data name="PeopleMaternalSurname" xml:space="preserve">
+    <value>Apellido Materno</value>
+    <comment>texto campo apellido materno</comment>
+  </data>
+  <data name="PeopleName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>texto campo nombre</comment>
+  </data>
+  <data name="PeoplePaternalSurname" xml:space="preserve">
+    <value>Apellido Paterno</value>
+    <comment>texto campo apellido paterno</comment>
+  </data>
+  <data name="RadAsyncUploadCancel" xml:space="preserve">
+    <value>Cancelar</value>
+    <comment>Texto cancelar archivo del control RadAsyncUpload</comment>
+  </data>
+  <data name="RadAsyncUploadRemove" xml:space="preserve">
+    <value>Remover</value>
+    <comment>Texto remover archivo del control RadAsyncUpload</comment>
+  </data>
+  <data name="RadAsyncUploadSelect" xml:space="preserve">
+    <value>Seleccionar</value>
+    <comment>Texto seleccionar archivo del control RadAsyncUpload</comment>
+  </data>
+  <data name="RadComboTextBusquedaTodas" xml:space="preserve">
+    <value>Todas...</value>
+    <comment>Texto para indicar Todas las opciones de un RadComboBox</comment>
+  </data>
+  <data name="RadDockCapacitacionGrillaTitle" xml:space="preserve">
+    <value>Capacitaciones</value>
+    <comment>Titulo de RadDock que contiene la grilla de capacitaciones</comment>
+  </data>
+  <data name="RadDockCargoGrillaTitle" xml:space="preserve">
+    <value>Cargo</value>
+    <comment>titulo grilla mantenedor</comment>
+  </data>
+  <data name="RadDockCertificacionGrilla" xml:space="preserve">
+    <value>Certificaciones Requeridas</value>
+    <comment>titulo de la grilla de las certificaciones de los cargos</comment>
+  </data>
+  <data name="RadDockClientesGrillaTitle" xml:space="preserve">
+    <value>Clientes</value>
+    <comment>Titulo de la grilla mantenedor de clientes</comment>
+  </data>
+  <data name="RadDockClienteSoftwareGrillaTitle" xml:space="preserve">
+    <value>Cliente/Software</value>
+    <comment>titulo grilla cliente software mantenedor</comment>
+  </data>
+  <data name="RadDockClienteSoftwareModuloGrillaTitle" xml:space="preserve">
+    <value>Cliente Software Modulo</value>
+    <comment>titulo de la grilla mantenedores clientesoftwaremodulo</comment>
+  </data>
+  <data name="RadDockClienteSoftwareUsersGrillaTitle" xml:space="preserve">
+    <value>Cliente Software Users</value>
+    <comment>titulo de la grilla mantenedores clientesoftwareusers</comment>
+  </data>
+  <data name="RadDockClienteUsersGrillaTitle" xml:space="preserve">
+    <value>Cliente/Usuarios</value>
+    <comment>titulo cliente usuario en la grilla</comment>
+  </data>
+  <data name="RadDockConductaGrillaTitle" xml:space="preserve">
+    <value>Conducta Competencia</value>
+    <comment>titulo de la conducta de la competencia</comment>
+  </data>
+  <data name="RadDockContratoGrillaTitle" xml:space="preserve">
+    <value>Contratos</value>
+    <comment>Titulo de RadDock que contiene la grilla de contratos</comment>
+  </data>
+  <data name="RadDockDetallePerfilGrillaTitle" xml:space="preserve">
+    <value>Detalle Perfil</value>
+    <comment>detalle el perfil en el adm.de perfiles</comment>
+  </data>
+  <data name="RadDockFamiliaCargoGrillaTitle" xml:space="preserve">
+    <value>Familia de Cargo</value>
+    <comment>titulo de la grilla mantenedores</comment>
+  </data>
+  <data name="RadDockFamiliaCompetenciaGrillaAdd" xml:space="preserve">
+    <value>Agrega Familia Competencia</value>
+    <comment>titulo del raddock</comment>
+  </data>
+  <data name="RadDockFamiliaCompetenciaGrillaEdit" xml:space="preserve">
+    <value>Edita Familia Competencia</value>
+    <comment>titulo del raddock</comment>
+  </data>
+  <data name="RadDockFamiliaCompetenciaGrillaTitle" xml:space="preserve">
+    <value>Familia Competencia</value>
+    <comment>titulo de la grilla familia competencia</comment>
+  </data>
+  <data name="RadDockFormularioInformacionBasicaTitle" xml:space="preserve">
+    <value>Información Básica</value>
+    <comment>Titulo RadDock Informacion Basica</comment>
+  </data>
+  <data name="RadDockFuncionalidadesGrillaTitle" xml:space="preserve">
+    <value>Funcionalidades</value>
+    <comment>titulo de la grilla del  mantenedor</comment>
+  </data>
+  <data name="RadDockFuncionesGrillaTitle" xml:space="preserve">
+    <value>Funciones</value>
+    <comment>Titulo de RadDock en grilla</comment>
+  </data>
+  <data name="RadDockGraduacionesGrillaAdd" xml:space="preserve">
+    <value>Agrega Graduación</value>
+    <comment>titulo del raddock </comment>
+  </data>
+  <data name="RadDockGraduacionesGrillaEdit" xml:space="preserve">
+    <value>Edita Graduación</value>
+    <comment>titulo del raddock</comment>
+  </data>
+  <data name="RadDockGraduacionGrillaTitle" xml:space="preserve">
+    <value>Graduación</value>
+    <comment>titulo grilla graduacion</comment>
+  </data>
+  <data name="RadDockHabilidadesGrillaAdd" xml:space="preserve">
+    <value>Agregar Habilidades</value>
+    <comment>titulo de la grilla</comment>
+  </data>
+  <data name="RadDockHabilidadesGrillaEdit" xml:space="preserve">
+    <value>Editar Habilidades</value>
+    <comment>titulo de la grilla</comment>
+  </data>
+  <data name="RadDockHabilidadesGrillaTitle" xml:space="preserve">
+    <value>Habilidades</value>
+    <comment>Titulo de la grilla</comment>
+  </data>
+  <data name="RadDockItemsGrillaTitle" xml:space="preserve">
+    <value>Items</value>
+    <comment>titulo grilla items</comment>
+  </data>
+  <data name="RadDockJornadaLaboralGrillaTitle" xml:space="preserve">
+    <value>Jornada Laboral</value>
+    <comment>titulo grilla mantenedor</comment>
+  </data>
+  <data name="RadDockModulosGrillaTitle" xml:space="preserve">
+    <value>Modulos</value>
+    <comment>titulo de la grilla del mantenedor de modulos</comment>
+  </data>
+  <data name="RadDockNivelIdiomaHabilidadesCargo" xml:space="preserve">
+    <value>Nivel de Idiomas Requerido</value>
+    <comment>titulo de la grilla de los idiomas de las habilidades del cargo</comment>
+  </data>
+  <data name="RadDockPaginasGrillaTitle" xml:space="preserve">
+    <value>Paginas</value>
+    <comment>titulo de la grilla mantenedor</comment>
+  </data>
+  <data name="RadDockPerfilGrillaTitle" xml:space="preserve">
+    <value>Perfil</value>
+    <comment>titulo de la grilla mantenedor</comment>
+  </data>
+  <data name="RadDockSociedadGrillaTitle" xml:space="preserve">
+    <value>Sociedad</value>
+    <comment>titulo grilla mantenedor</comment>
+  </data>
+  <data name="RadDockSoftwareGrillaTitle" xml:space="preserve">
+    <value>Software</value>
+    <comment>titulo de grilla mantenedores de software</comment>
+  </data>
+  <data name="RadDockSoftwareModuloGrillaTitle" xml:space="preserve">
+    <value>Software/Modulo</value>
+    <comment>titulo grilla mantenedor software modulo</comment>
+  </data>
+  <data name="RadDockTipoCompetenciaGrillaTitle" xml:space="preserve">
+    <value>Tipo de Competencias</value>
+    <comment>texto titulo grilla competencias</comment>
+  </data>
+  <data name="RadDockUnidadesNegocioGrillaTitle" xml:space="preserve">
+    <value>Unidades de Negocio</value>
+    <comment>titulo de la grilla unidades de negocio</comment>
+  </data>
+  <data name="RadDockUnidadesOrganizacionalGrillaTitle" xml:space="preserve">
+    <value>Unidades Organizacionales</value>
+    <comment>titulo de las unidades organizacionales grilla</comment>
+  </data>
+  <data name="RadDockUsuarioGrillaTitle" xml:space="preserve">
+    <value>Usuarios</value>
+    <comment>titulo de la grilla mantenedor</comment>
+  </data>
+  <data name="RadDockUsuarioPerfilGrillaTitle" xml:space="preserve">
+    <value>Usuario Perfil</value>
+    <comment>titulo de la grilla mantenedor</comment>
+  </data>
+  <data name="RadGridContratoHeaderFechaContrato" xml:space="preserve">
+    <value>Fecha Contrato</value>
+    <comment>Cabecera Fecha Contrato</comment>
+  </data>
+  <data name="RadGridContratoHeaderFechaTermino" xml:space="preserve">
+    <value>Fecha Término</value>
+    <comment>Cabecera Fecha Termino</comment>
+  </data>
+  <data name="RadGridContratoHeaderSociedadMandante" xml:space="preserve">
+    <value>Sociedad Mandante</value>
+    <comment>Cabecera Sociedad Mandante</comment>
+  </data>
+  <data name="RadGridContratoHeaderTipoContrato" xml:space="preserve">
+    <value>Tipo Contrato</value>
+    <comment>Cabecera Tipo Contrato</comment>
+  </data>
+  <data name="RadGridContratoNoRecords" xml:space="preserve">
+    <value>No hay registro de contratos</value>
+    <comment>Texto para mostrar cuando no hay contratos en la grilla</comment>
+  </data>
+  <data name="RadGridNoRecords" xml:space="preserve">
+    <value>No hay registros para mostrar</value>
+    <comment>No hay registros poara mostrar en la grilla</comment>
+  </data>
+  <data name="TabConfirmationGridHeaderColumnExcel" xml:space="preserve">
+    <value>Columna Excel</value>
+    <comment>Nombre columna excel</comment>
+  </data>
+  <data name="TabConfirmationGridHeaderData" xml:space="preserve">
+    <value>Dato</value>
+    <comment>Nombre columna dato</comment>
+  </data>
+  <data name="TabConfirmationGridHeaderSection" xml:space="preserve">
+    <value>Sección</value>
+    <comment>Nombre columna seccion</comment>
+  </data>
+  <data name="TabLoadDefaultContractingCompany" xml:space="preserve">
+    <value>Sociedad Contratante Predeterminada</value>
+    <comment>texto archivo tab load</comment>
+  </data>
+  <data name="TabLoadExtentionError" xml:space="preserve">
+    <value>Formato no válido: La extensión del archivo debe ser .xls, .xlsx, .csv</value>
+    <comment>Texto error extencion</comment>
+  </data>
+  <data name="TabLoadFile" xml:space="preserve">
+    <value>Archivo</value>
+    <comment>texto archivo tab load</comment>
+  </data>
+  <data name="TabLoadMustSpecifyFile" xml:space="preserve">
+    <value>Debe especificar un archivo</value>
+    <comment>Texto error al no especificar archivo</comment>
+  </data>
+  <data name="TabMappingContract" xml:space="preserve">
+    <value>Contrato</value>
+    <comment>Titulo seccion contrato</comment>
+  </data>
+  <data name="TabMappingJobPosition" xml:space="preserve">
+    <value>Posición laboral</value>
+    <comment>Titulo seccion posición laboral</comment>
+  </data>
+  <data name="TabMappingPeople" xml:space="preserve">
+    <value>Personas</value>
+    <comment>Titulo seccion personas</comment>
+  </data>
+  <data name="TabRegisterAlertFinish" xml:space="preserve">
+    <value>Se a terminado de importar los registros</value>
+    <comment>Texto de alerta de finalizacion de importacion</comment>
+  </data>
+  <data name="TabRegisterEventLog" xml:space="preserve">
+    <value>Registro de eventos</value>
+    <comment>Texto titulo registro de eventos</comment>
+  </data>
+  <data name="TabRegisterEventLogClear" xml:space="preserve">
+    <value>Limpiar</value>
+    <comment>Texto boton limpiar </comment>
+  </data>
+  <data name="TabRegisterNew" xml:space="preserve">
+    <value>Nuevos : </value>
+    <comment>Texto registros nuevos</comment>
+  </data>
+  <data name="TabRegisterUpdated" xml:space="preserve">
+    <value>Actualizados :</value>
+    <comment>Texto registros actualizados</comment>
+  </data>
+  <data name="TabValidateGridContent" xml:space="preserve">
+    <value>Contenido</value>
+    <comment>Texto columna contenido</comment>
+  </data>
+  <data name="TabValidateGridEventType" xml:space="preserve">
+    <value>Tipo (E=Error, A=Advertencia)</value>
+    <comment>Texto columna tipo evento</comment>
+  </data>
+  <data name="TabValidateGridField" xml:space="preserve">
+    <value>Campo</value>
+    <comment>Texto columna campo</comment>
+  </data>
+  <data name="TabValidateGridMessage" xml:space="preserve">
+    <value>Mensaje</value>
+    <comment>Texto columna mensaje</comment>
+  </data>
+  <data name="TabValidateGridRow" xml:space="preserve">
+    <value>Fila</value>
+    <comment>Texto columna fila</comment>
+  </data>
+  <data name="TextImportedRecords" xml:space="preserve">
+    <value>{0} registros importados de {1}</value>
+    <comment>Texto informativo de registros importados, recibe dos parametros validados y total</comment>
+  </data>
+  <data name="TextImportValidationErrors" xml:space="preserve">
+    <value>Se detectaron errores en la validación de los datos. No se podrá realizar la importación hasta corregirlos.</value>
+    <comment>Texto errores en validacion</comment>
+  </data>
+  <data name="TextShowOnlyValidationErrors" xml:space="preserve">
+    <value>Ver solo errores que impiden la importación de datos</value>
+    <comment>Texto checkbox ver solo los errores de vaidacion</comment>
+  </data>
+  <data name="TextTabConfirm" xml:space="preserve">
+    <value>Confirmación</value>
+    <comment>Texto tab de confirmación</comment>
+  </data>
+  <data name="TextTabLoad" xml:space="preserve">
+    <value>Carga</value>
+    <comment>Texto tab de carga</comment>
+  </data>
+  <data name="TextTabLog" xml:space="preserve">
+    <value>Registro</value>
+    <comment>Texto tab de registro</comment>
+  </data>
+  <data name="TextTabMap" xml:space="preserve">
+    <value>Mapeo</value>
+    <comment>Texto tab de mapeo</comment>
+  </data>
+  <data name="TextTabValidate" xml:space="preserve">
+    <value>Validar</value>
+    <comment>Texto tab valicacion</comment>
+  </data>
+  <data name="TextValidatedRecords" xml:space="preserve">
+    <value>{0} registros validados de {1}</value>
+    <comment>Texto informativo de registros validados en el importador, recibe dos parametros validados y total</comment>
+  </data>
+  <data name="TituloBuscarUbicacion" xml:space="preserve">
+    <value>Buscar Ubicaciones</value>
+    <comment>mensaje de busqueda ubicacion</comment>
+  </data>
+  <data name="TituloCalendario" xml:space="preserve">
+    <value>Calendario del Evento</value>
+    <comment>Fija el calendario del Evento</comment>
+  </data>
+  <data name="TituloCompetenciasConductualesAdd" xml:space="preserve">
+    <value>Personalizar o Agregar competencias conductuales desde el catálogo</value>
+    <comment>Titulo al agregar competencias del curso</comment>
+  </data>
+  <data name="TituloCompetenciasConductualesEdit" xml:space="preserve">
+    <value>Editar Competencias Conductuales </value>
+    <comment>titulo de competencia conductuales del cargo</comment>
+  </data>
+  <data name="TituloCompetenciasTecnicasAdd" xml:space="preserve">
+    <value>Nueva competencia técnica para el cargo</value>
+    <comment>Titulo al agregar competencias del curso</comment>
+  </data>
+  <data name="TituloCompetenciasTecnicasEdit" xml:space="preserve">
+    <value>Editar Competencias Técnicas</value>
+    <comment>titulode competencia tecnica del cargo</comment>
+  </data>
+  <data name="TituloCostoEvento" xml:space="preserve">
+    <value>Costos del Evento</value>
+    <comment>costos del evento</comment>
+  </data>
+  <data name="TituloDatosEvento" xml:space="preserve">
+    <value>Datos del Evento</value>
+    <comment>Datos del Evento</comment>
+  </data>
+  <data name="Titulodescripcioncertificacion" xml:space="preserve">
+    <value>Corresponde a las certificaciones o acreditaciones definidas a nivel corporativo</value>
+    <comment>descripción de las certificaciones de las habilidades del cargo</comment>
+  </data>
+  <data name="TituloDesvincularContrato" xml:space="preserve">
+    <value>Desvincular Contrato Seleccionado</value>
+    <comment>Titulo RadDock Desvinculacion de contrato</comment>
+  </data>
+  <data name="TituloEditAbstractTableEditor" xml:space="preserve">
+    <value>Editando {0}</value>
+    <comment>Titulo RadDock editando Registro mantenedor generico recibe parametro nombre</comment>
+  </data>
+  <data name="TituloEditarActivo" xml:space="preserve">
+    <value>Editando registro de activo</value>
+    <comment>Titulo RadDock Edicion de activo, recibe el parametro ID</comment>
+  </data>
+  <data name="TituloEditarAntecedenteSalud" xml:space="preserve">
+    <value>Editando Antecedente de Salud Ocupacional</value>
+  </data>
+  <data name="TituloEditarCapacitacion" xml:space="preserve">
+    <value>Editando Capacitación Seleccionada</value>
+    <comment>Titulo RadDock Edicion de Capacitación, recibe el parametro ID</comment>
+  </data>
+  <data name="TituloEditarCargo" xml:space="preserve">
+    <value>Editar Cargo</value>
+    <comment>edita cargo mantenedor</comment>
+  </data>
+  <data name="TituloEditarCertificacionHabilidadesCargo" xml:space="preserve">
+    <value>Editar Certificación</value>
+    <comment>titulo de la certificación de las habilidades del cargo</comment>
+  </data>
+  <data name="TituloEditarCliente" xml:space="preserve">
+    <value>Editar Clientes</value>
+    <comment>editar cliente del mantenedor</comment>
+  </data>
+  <data name="TituloEditarClienteSoftware" xml:space="preserve">
+    <value>Editar Cliente Software</value>
+    <comment>edita cliente software mantenedor</comment>
+  </data>
+  <data name="TituloEditarClienteSoftwareModulo" xml:space="preserve">
+    <value>Editar Cliente Software Modulo</value>
+    <comment>edita dato grilla mantenedor clientesoftwaremodulo</comment>
+  </data>
+  <data name="TituloEditarClienteSoftwareUsers" xml:space="preserve">
+    <value>Editar Cliente Software Users</value>
+    <comment>edita dato grilla mantenedor clientesoftwareusers</comment>
+  </data>
+  <data name="TituloEditarClienteUsers" xml:space="preserve">
+    <value>Editar Cliente/Usuarios</value>
+    <comment>titulo de edicion de cliente usuarios</comment>
+  </data>
+  <data name="TituloEditarComentario" xml:space="preserve">
+    <value>Editando comentario</value>
+    <comment>Titulo RadDock edicion comentario, recibe el parametro ID</comment>
+  </data>
+  <data name="TituloEditarContrato" xml:space="preserve">
+    <value>Editando Contrato Seleccionado</value>
+    <comment>Titulo RadDock Edicion de contrato, recibe el parametro ID</comment>
+  </data>
+  <data name="TituloEditarDesempeno" xml:space="preserve">
+    <value>Editando resultado de procesos de evaluación del desempeño seleccionado</value>
+    <comment>Titulo RadDock Edicion de desempeño, recibe el parametro ID</comment>
+  </data>
+  <data name="TituloEditarDocumento" xml:space="preserve">
+    <value>Editando documento</value>
+    <comment>Titulo RadDock Edicion documento, recibe parametro</comment>
+  </data>
+  <data name="TituloEditarFamiliaCargo" xml:space="preserve">
+    <value>Edita Familia Cargo</value>
+    <comment>edita titulo mantenedor</comment>
+  </data>
+  <data name="TituloEditarFamiliaCompetencia" xml:space="preserve">
+    <value>Edita Familia Competencia</value>
+    <comment>titulo de edicion familia competencia</comment>
+  </data>
+  <data name="TituloEditarFuncion" xml:space="preserve">
+    <value>Editar Función</value>
+    <comment>Titulo para editar en la grilla</comment>
+  </data>
+  <data name="TituloEditarFuncionalidades" xml:space="preserve">
+    <value>Editar Funcionalidad</value>
+    <comment>titulo de edicion del mantenedor</comment>
+  </data>
+  <data name="TituloEditarGraduacion" xml:space="preserve">
+    <value>Editar Graduación</value>
+    <comment>titulo de edicion graduacion</comment>
+  </data>
+  <data name="TituloEditarGraduaciones" xml:space="preserve">
+    <value>Editar Graduación</value>
+    <comment>Titulo editar graduaciones de la competencia</comment>
+  </data>
+  <data name="TituloEditarHabilidades" xml:space="preserve">
+    <value>Editar Habilidades</value>
+    <comment>Titulo para editar las habilidades del cargo</comment>
+  </data>
+  <data name="TituloEditarHistorialExterno" xml:space="preserve">
+    <value>Editando historial externo</value>
+    <comment>Titulo RadDock edicion de historial externo, recibe parametro Id</comment>
+  </data>
+  <data name="TituloEditarHistorialLaboral" xml:space="preserve">
+    <value>Editando Historial Seleccionado</value>
+    <comment>Titulo RadDock Edicion de historial laboral recibe el parametro ID</comment>
+  </data>
+  <data name="TituloEditarJornadaLaboral" xml:space="preserve">
+    <value>Editar Jornada Laboral</value>
+    <comment>edita jornada mantenedor</comment>
+  </data>
+  <data name="TituloEditarMaestroCertificacion" xml:space="preserve">
+    <value>Editando Certificacion</value>
+    <comment>Titulo RadDock edicion maestro certificacion, recibe el parametro ID</comment>
+  </data>
+  <data name="TituloEditarModulo" xml:space="preserve">
+    <value>Editar Modulo</value>
+    <comment>titulo de edicion del mantendor de modulo</comment>
+  </data>
+  <data name="TituloEditarNomina" xml:space="preserve">
+    <value>Editando Nomina</value>
+    <comment>Editar Nomina alumnos</comment>
+  </data>
+  <data name="TituloEditarPaginas" xml:space="preserve">
+    <value>Editar Página</value>
+    <comment>titulo de la edicion del mantenedor</comment>
+  </data>
+  <data name="TituloEditarPerfil" xml:space="preserve">
+    <value>Editar Perfil</value>
+    <comment>titulo de  edicion del mantenedor</comment>
+  </data>
+  <data name="TituloEditarPresupuesto" xml:space="preserve">
+    <value>Editar Presupuesto</value>
+    <comment>edicion de presupuesto</comment>
+  </data>
+  <data name="TituloEditarProveedor" xml:space="preserve">
+    <value>Editando Proveedor</value>
+    <comment>Titulo RadDock edicion de proveedor, recibe el parametro ID</comment>
+  </data>
+  <data name="TituloEditarSociedad" xml:space="preserve">
+    <value>Editar Sociedad</value>
+    <comment>edita sociedad</comment>
+  </data>
+  <data name="TituloEditarSoftware" xml:space="preserve">
+    <value>Editar Software</value>
+    <comment>edita software mantenedor</comment>
+  </data>
+  <data name="TituloEditarSoftwareModulo" xml:space="preserve">
+    <value>Editar Software/Modulo</value>
+    <comment>edita software modulo mantenedor</comment>
+  </data>
+  <data name="TituloEditarUnidadesNegocio" xml:space="preserve">
+    <value>Editar Unidad Negocio</value>
+    <comment>titulo editar unidades de negocio</comment>
+  </data>
+  <data name="TituloEditarUnidadesOrganizacional" xml:space="preserve">
+    <value>Editar Unidades Organizacionales</value>
+    <comment>editar titulo unidades organizacionales</comment>
+  </data>
+  <data name="TituloEditarUsuario" xml:space="preserve">
+    <value>Editar Usuario</value>
+    <comment>titulo de edicion del mantenedor</comment>
+  </data>
+  <data name="TituloEditarUsuarioPerfil" xml:space="preserve">
+    <value>Editar Usuario Perfil</value>
+    <comment>titulo de edicion del mantenedor</comment>
+  </data>
+  <data name="TituloEvento" xml:space="preserve">
+    <value>Datos Generales</value>
+    <comment>Organizar Eventos</comment>
+  </data>
+  <data name="TituloEventoCostos" xml:space="preserve">
+    <value>Eventos Costos</value>
+    <comment>Eventos Costos</comment>
+  </data>
+  <data name="TituloFamiliaCompetencias" xml:space="preserve">
+    <value>Familia Competencias</value>
+    <comment>Titulo familia competencia</comment>
+  </data>
+  <data name="TituloGrillaCursoCompetenciaConductuales" xml:space="preserve">
+    <value>Competencias Conductuales</value>
+    <comment>Titulo de la competencias conductuales del cargo </comment>
+  </data>
+  <data name="TituloGrillaCursoCompetenciasTecnicas" xml:space="preserve">
+    <value>Competencias Técnicas</value>
+    <comment>Titulo de la competencias técnicas del cargo</comment>
+  </data>
+  <data name="TituloHorario" xml:space="preserve">
+    <value>Lugar de Ejecución</value>
+    <comment>asignar horarios del curso</comment>
+  </data>
+  <data name="TituloImputarCostos" xml:space="preserve">
+    <value>Imputar costos al evento</value>
+    <comment>costos al eventos</comment>
+  </data>
+  <data name="TituloItemsCompetenciasAdd" xml:space="preserve">
+    <value>Agregar Items a la Competencia</value>
+    <comment>titulo de items de la competencia en el cargo</comment>
+  </data>
+  <data name="TituloItemsCompetenciasEdit" xml:space="preserve">
+    <value>Editar Items de la Competencia</value>
+    <comment>titulo de items de la competencia en el cargo</comment>
+  </data>
+  <data name="TituloNuevaCapacitacion" xml:space="preserve">
+    <value>Agregar Capacitación</value>
+    <comment>Titulo nueva capacitación</comment>
+  </data>
+  <data name="TituloNuevaCompentencia" xml:space="preserve">
+    <value>Agregar un nueva Competencia</value>
+    <comment>Titulo nueva competencia</comment>
+  </data>
+  <data name="TituloNuevaEstudio" xml:space="preserve">
+    <value>Nuevo estudio</value>
+    <comment>Titulo RadDock nuevo estudio</comment>
+  </data>
+  <data name="TituloNuevaEvaluacionDesempeno" xml:space="preserve">
+    <value>Nuevo resultado de procesos de evaluación del desempeño</value>
+    <comment>Titulo RadDock Nueva evaluacion de desempeño</comment>
+  </data>
+  <data name="TituloNuevaFunción" xml:space="preserve">
+    <value>Nueva Función</value>
+    <comment>Titulo nueva Función</comment>
+  </data>
+  <data name="TituloNuevoAbstractTableEditor" xml:space="preserve">
+    <value>Nuevo {0}</value>
+    <comment>Titulo RadDock Nuevo Registro mantenedor generico recibe parametro nombre</comment>
+  </data>
+  <data name="TituloNuevoActivo" xml:space="preserve">
+    <value>Nuevo Registro de Activo</value>
+    <comment>Titulo Nuevo Activo</comment>
+  </data>
+  <data name="TituloNuevoAntecedenteSalud" xml:space="preserve">
+    <value>Nuevo Antecedente de Salud Ocupacional</value>
+  </data>
+  <data name="TituloNuevoCargo" xml:space="preserve">
+    <value>Agrega Cargo</value>
+    <comment>agregar cargo en el mantenedor</comment>
+  </data>
+  <data name="TituloNuevoCertificacionHabilidadesCargo" xml:space="preserve">
+    <value>Agrega Certificación</value>
+    <comment>titulo de la certificación de las habilidades del cargo</comment>
+  </data>
+  <data name="TituloNuevoCliente" xml:space="preserve">
+    <value>Agrega Cliente</value>
+    <comment>Titulo de nuevo Clientes</comment>
+  </data>
+  <data name="TituloNuevoClienteSoftware" xml:space="preserve">
+    <value>Agrega Cliente Software</value>
+    <comment>agregar cliente software mantenedor</comment>
+  </data>
+  <data name="TituloNuevoClienteSoftwareModulos" xml:space="preserve">
+    <value>Agrega Cliente Software Módulos</value>
+    <comment>agregar cliente software modulos mantenedor</comment>
+  </data>
+  <data name="TituloNuevoClienteSoftwareUsers" xml:space="preserve">
+    <value>Agrega Cliente Software Users</value>
+    <comment>agregar cliente software users mantenedor</comment>
+  </data>
+  <data name="TituloNuevoClienteUsers" xml:space="preserve">
+    <value>Agrega Cliente/Usuarios</value>
+    <comment>titulo de nuevo cliente usuarios</comment>
+  </data>
+  <data name="TituloNuevoComentario" xml:space="preserve">
+    <value>Nuevo Comentario</value>
+    <comment>Titulo RadDock nuevo comentario</comment>
+  </data>
+  <data name="TituloNuevoConducta" xml:space="preserve">
+    <value>Agrega Conducta</value>
+    <comment>titulo de la nueva conducta</comment>
+  </data>
+  <data name="TituloNuevoContrato" xml:space="preserve">
+    <value>Nuevo Contrato</value>
+    <comment>Titulo Nuevo Contratos</comment>
+  </data>
+  <data name="TituloNuevoDocumento" xml:space="preserve">
+    <value>Nuevo documento</value>
+    <comment>Titulo RadDock nuevo documento</comment>
+  </data>
+  <data name="TituloNuevoEvento" xml:space="preserve">
+    <value>Datos Generales</value>
+    <comment>agregar evento</comment>
+  </data>
+  <data name="TituloNuevoFamiliaCargo" xml:space="preserve">
+    <value>Agrega Familia Cargo</value>
+    <comment>titulo familia cargo mantenedor</comment>
+  </data>
+  <data name="TituloNuevoFamiliaCompetencia" xml:space="preserve">
+    <value>Agrega Familia Competencia</value>
+    <comment>titulo agrega nueva  familia competencia</comment>
+  </data>
+  <data name="TituloNuevoFuncionalidades" xml:space="preserve">
+    <value>Agrega Funcionalidades</value>
+    <comment>agregar funcionalidades mantenedor</comment>
+  </data>
+  <data name="TituloNuevoGraduacion" xml:space="preserve">
+    <value>Agrega Graduación</value>
+    <comment>titulo agrega graduacion</comment>
+  </data>
+  <data name="TituloNuevoHistoriaInterna" xml:space="preserve">
+    <value>Nuevo Historial Interno</value>
+    <comment>Titulo RadDock Nuevo historial laboral interno</comment>
+  </data>
+  <data name="TituloNuevoHistorialExterno" xml:space="preserve">
+    <value>Agregar experiencia laboral externa</value>
+    <comment>Titulo RadDock titulo nuevo historial externo</comment>
+  </data>
+  <data name="TituloNuevoJornadaLaboral" xml:space="preserve">
+    <value>Agrega Jornada Laboral</value>
+    <comment>agregar jornada laboral mantenedor</comment>
+  </data>
+  <data name="TituloNuevoMaestroCertificacion" xml:space="preserve">
+    <value>Nueva Certificación</value>
+    <comment>Titulo RadDock maestro certificaciones</comment>
+  </data>
+  <data name="TituloNuevoModuloPaginaFuncionalidad" xml:space="preserve">
+    <value>Agrega Módulo Página Funcionalidad</value>
+    <comment>agregar modulo pagina funcionalidad</comment>
+  </data>
+  <data name="TituloNuevoModulos" xml:space="preserve">
+    <value>Agrega Módulos</value>
+    <comment>agregar modulo mantenedor</comment>
+  </data>
+  <data name="TituloNuevoPaginas" xml:space="preserve">
+    <value>Agrega Página</value>
+    <comment>titulo del mantenedor de paginas</comment>
+  </data>
+  <data name="TituloNuevoParticipante" xml:space="preserve">
+    <value>Agregar Participantes</value>
+    <comment>Agregar persona al evento</comment>
+  </data>
+  <data name="TituloNuevoPerfil" xml:space="preserve">
+    <value>Agrega Perfil</value>
+    <comment>agregar perfil mantenedor</comment>
+  </data>
+  <data name="TituloNuevoPresupuesto" xml:space="preserve">
+    <value>Nuevo Prespuesto</value>
+    <comment>crear nuevo presupuesto</comment>
+  </data>
+  <data name="TituloNuevoProveedor" xml:space="preserve">
+    <value>Nuevo Proveedor</value>
+    <comment>Titulo RadDock nuevo proveedor</comment>
+  </data>
+  <data name="TituloNuevoSociedad" xml:space="preserve">
+    <value>Agrega Sociedad</value>
+    <comment>titulo agregar sociedad</comment>
+  </data>
+  <data name="TituloNuevoSoftware" xml:space="preserve">
+    <value>Agrega Software</value>
+    <comment>agregar software mantenedor</comment>
+  </data>
+  <data name="TituloNuevoSoftwareModulo" xml:space="preserve">
+    <value>Agrega Software Módulo</value>
+    <comment>agrega software modulo mantenedor</comment>
+  </data>
+  <data name="TituloNuevoUnidadesNegocio" xml:space="preserve">
+    <value>Agrega Unidad Negocio</value>
+    <comment>titulo agregar unidades de negocio</comment>
+  </data>
+  <data name="TituloNuevoUnidadesOrganizacional" xml:space="preserve">
+    <value>Agregar Unidad Organizacional</value>
+    <comment>agregar una unidad organizacional</comment>
+  </data>
+  <data name="TituloNuevoUsers" xml:space="preserve">
+    <value>Agrega Users</value>
+    <comment>agrega users mantenedor</comment>
+  </data>
+  <data name="TituloNuevoUsuarioPerfil" xml:space="preserve">
+    <value>Agrega Usuario Perfil</value>
+    <comment>agrega usuario perfil mantenedor</comment>
+  </data>
+  <data name="TituloSeleccionarCodigoSence" xml:space="preserve">
+    <value>Buscar Código Sence</value>
+    <comment>seleccionar curso codigo sence</comment>
+  </data>
+  <data name="TituloSeleccionCursoCatalo" xml:space="preserve">
+    <value>Buscar Catálogo</value>
+    <comment>seleccionar curso del catalogo</comment>
+  </data>
+  <data name="WizardCancel" xml:space="preserve">
+    <value>Cancelar</value>
+    <comment>Texto boton cancelar wizard importador</comment>
+  </data>
+  <data name="WizardImport" xml:space="preserve">
+    <value>Importar</value>
+    <comment>Texto boton importar wizard importador</comment>
+  </data>
+  <data name="WizardNext" xml:space="preserve">
+    <value>Siguiente</value>
+    <comment>Texto boton siguiente wizard importador</comment>
+  </data>
+  <data name="WizardPrevious" xml:space="preserve">
+    <value>Anterior</value>
+    <comment>Texto boton anterior wizard importador</comment>
+  </data>
+  <data name="WizardValidate" xml:space="preserve">
+    <value>Validar</value>
+    <comment>Texto boton validar wizard importador</comment>
+  </data>
+  <data name="TituloBuscarRegion" xml:space="preserve">
+    <value>Región</value>
+    <comment>Texto buscar región</comment>
+  </data>
+  <data name="TituloBuscarComuna" xml:space="preserve">
+    <value>Comuna</value>
+    <comment>Texto Buscar Comuna</comment>
+  </data>
+  <data name="NotificationNombreDistintoEvento" xml:space="preserve">
+    <value>El nombre del evento es distinto al del Catalogo.</value>
+    <comment>cambio nombre de curso</comment>
+  </data>
+  <data name="NotificationNombreDistintoSENCE" xml:space="preserve">
+    <value>El nombre del evento es distinto al del SENCE.</value>
+    <comment>cambio nombre de curso</comment>
+  </data>
+  <data name="RadDockImport" xml:space="preserve">
+    <value>Importar Asistencia</value>
+    <comment>boton creado para nomina de evento para  importar asistencia</comment>
+  </data>
+  <data name="DockDuplicateCommand" xml:space="preserve">
+    <value>Clonar Evento</value>
+    <comment>Crea un evento nuevo a partir de un evento previamente seleccionado</comment>
+  </data>
+</root>

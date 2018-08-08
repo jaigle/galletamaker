@@ -1,0 +1,73 @@
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\Dlcenter.Hcm.Web.dll.config
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\Dlcenter.Hcm.Web.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\Dlcenter.Hcm.Web.pdb
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\DocumentFormat.OpenXml.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\Flurl.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\LinqToExcel.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\log4net.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\Newtonsoft.Json.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\nunit.framework.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\Remotion.Data.Linq.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\Remotion.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\Remotion.Interfaces.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\RestSharp.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\System.IO.Compression.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\System.IO.Compression.FileSystem.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\Flurl.pdb
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\Flurl.xml
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\LinqToExcel.xml
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\log4net.xml
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\bin\nunit.framework.xml
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\obj\Debug\WebCookie.csprojResolveAssemblyReference.cache
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\obj\Debug\Dlcenter.Hcm.Web.Properties.Resources.resources
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\obj\Debug\WebCookie.csproj.GenerateResource.Cache
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\obj\Debug\Dlcenter.Hcm.Web.dll
+C:\git\hcm_cfritz\DLCENTER_HCM_WEB\obj\Debug\Dlcenter.Hcm.Web.pdb
+C:\git\WebCookie\bin\DocumentFormat.OpenXml.dll
+C:\git\WebCookie\bin\Newtonsoft.Json.dll
+C:\git\WebCookie\bin\RestSharp.dll
+C:\git\WebCookie\bin\System.IO.Compression.dll
+C:\git\WebCookie\bin\System.IO.Compression.FileSystem.dll
+C:\git\WebCookie\bin\DocumentFormat.OpenXml.xml
+C:\git\WebCookie\bin\Flurl.pdb
+C:\git\WebCookie\bin\Flurl.xml
+C:\git\WebCookie\bin\LinqToExcel.xml
+C:\git\WebCookie\bin\log4net.xml
+C:\git\WebCookie\bin\nunit.framework.xml
+C:\git\WebCookie\obj\Debug\WebCookie.csprojResolveAssemblyReference.cache
+C:\git\WebCookie\obj\Debug\WebCookie.csproj.GenerateResource.Cache
+C:\git\WebCookie\bin\WebCookie.dll.config
+C:\git\WebCookie\bin\WebCookie.dll
+C:\git\WebCookie\bin\WebCookie.pdb
+C:\git\WebCookie\obj\Debug\WebCookie.Properties.Resources.resources
+C:\git\WebCookie\obj\Debug\WebCookie.dll
+C:\git\WebCookie\obj\Debug\WebCookie.pdb
+D:\WORK\DL\WebCookie\bin\WebCookie.dll.config
+D:\WORK\DL\WebCookie\bin\WebCookie.dll
+D:\WORK\DL\WebCookie\bin\WebCookie.pdb
+D:\WORK\DL\WebCookie\bin\DocumentFormat.OpenXml.dll
+D:\WORK\DL\WebCookie\bin\RestSharp.dll
+D:\WORK\DL\WebCookie\bin\System.IO.Compression.dll
+D:\WORK\DL\WebCookie\bin\System.IO.Compression.FileSystem.dll
+D:\WORK\DL\WebCookie\bin\DocumentFormat.OpenXml.xml
+D:\WORK\DL\WebCookie\bin\Flurl.pdb
+D:\WORK\DL\WebCookie\bin\Flurl.xml
+D:\WORK\DL\WebCookie\bin\LinqToExcel.xml
+D:\WORK\DL\WebCookie\bin\log4net.xml
+D:\WORK\DL\WebCookie\bin\nunit.framework.xml
+D:\WORK\DL\WebCookie\obj\Debug\WebCookie.csprojResolveAssemblyReference.cache
+D:\WORK\DL\WebCookie\obj\Debug\WebCookie.Properties.Resources.resources
+D:\WORK\DL\WebCookie\obj\Debug\WebCookie.csproj.GenerateResource.Cache
+D:\WORK\DL\WebCookie\obj\Debug\WebCookie.csproj.CoreCompileInputs.cache
+D:\WORK\DL\WebCookie\obj\Debug\WebCookie.dll
+D:\WORK\DL\WebCookie\obj\Debug\WebCookie.pdb
+C:\Users\Jaguilera\temp\maias 2.0\WebCookie\bin\WebCookie.dll.config
+C:\Users\Jaguilera\temp\maias 2.0\WebCookie\bin\WebCookie.dll
+C:\Users\Jaguilera\temp\maias 2.0\WebCookie\bin\WebCookie.pdb
+C:\Users\Jaguilera\temp\maias 2.0\WebCookie\bin\System.IO.Compression.dll
+C:\Users\Jaguilera\temp\maias 2.0\WebCookie\bin\System.IO.Compression.FileSystem.dll
+C:\Users\Jaguilera\temp\maias 2.0\WebCookie\obj\Debug\WebCookie.Properties.Resources.resources
+C:\Users\Jaguilera\temp\maias 2.0\WebCookie\obj\Debug\WebCookie.csproj.GenerateResource.Cache
+C:\Users\Jaguilera\temp\maias 2.0\WebCookie\obj\Debug\WebCookie.csproj.CoreCompileInputs.cache
+C:\Users\Jaguilera\temp\maias 2.0\WebCookie\obj\Debug\WebCookie.dll
+C:\Users\Jaguilera\temp\maias 2.0\WebCookie\obj\Debug\WebCookie.pdb
