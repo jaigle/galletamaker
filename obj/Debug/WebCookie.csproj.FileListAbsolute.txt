@@ -71,3 +71,13 @@ C:\Users\Jaguilera\temp\maias 2.0\WebCookie\obj\Debug\WebCookie.csproj.GenerateR
 C:\Users\Jaguilera\temp\maias 2.0\WebCookie\obj\Debug\WebCookie.csproj.CoreCompileInputs.cache
 C:\Users\Jaguilera\temp\maias 2.0\WebCookie\obj\Debug\WebCookie.dll
 C:\Users\Jaguilera\temp\maias 2.0\WebCookie\obj\Debug\WebCookie.pdb
+C:\Temp\JM\Proyectos\WebCookie\bin\WebCookie.dll.config
+C:\Temp\JM\Proyectos\WebCookie\bin\WebCookie.dll
+C:\Temp\JM\Proyectos\WebCookie\bin\WebCookie.pdb
+C:\Temp\JM\Proyectos\WebCookie\bin\System.IO.Compression.dll
+C:\Temp\JM\Proyectos\WebCookie\bin\System.IO.Compression.FileSystem.dll
+C:\Temp\JM\Proyectos\WebCookie\obj\Debug\WebCookie.Properties.Resources.resources
+C:\Temp\JM\Proyectos\WebCookie\obj\Debug\WebCookie.csproj.GenerateResource.Cache
+C:\Temp\JM\Proyectos\WebCookie\obj\Debug\WebCookie.csproj.CoreCompileInputs.cache
+C:\Temp\JM\Proyectos\WebCookie\obj\Debug\WebCookie.dll
+C:\Temp\JM\Proyectos\WebCookie\obj\Debug\WebCookie.pdb
